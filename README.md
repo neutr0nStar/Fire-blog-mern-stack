@@ -15,4 +15,4 @@ This website is responsive, and will also look good on mobile devices.
 * Start server ( index.js ) using ```node .```
 * Start client using ```npm start``` or ```yarn start```
 
-> This website was made by me for learning and demonstration purposes only.
+> Sever won't run as the password is not in the uri in mongodb. Contact me for password.
