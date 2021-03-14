@@ -1,0 +1,26 @@
+http://localhost:3001/api/blogs
+
+###
+
+POST http://localhost:3001/api/create HTTP/1.1
+content-Type: application/json
+
+{
+    "title": "Blog3",
+    "snippet": "Snippet",
+    "content": "content"
+}
+
+###
+
+DELETE http://localhost:3001/api/blog/6047acce79e8b023aca671ad
+
+###
+
+PUT http://localhost:3001/api/update/6047acce79e8b023aca671ad
+content-Type: application/json
+
+{
+    "title": "Proper Blog",
+    "snippet": "One line snippet.",
+}
