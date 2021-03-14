@@ -17,7 +17,7 @@ app.use(cors());
 
 // MongoDB
 const dbURI =
-  "mongodb+srv://user1:test123@cluster0.dt1ew.mongodb.net/Learning?retryWrites=true&w=majority";
+  "mongodb+srv://user1:<password>cluster0.dt1ew.mongodb.net/Learning?retryWrites=true&w=majority";
 mongoose
   .connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
